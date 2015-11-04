@@ -1,0 +1,91 @@
+$border: 1px solid black;
+$margin: 10px;
+
+#wrapper {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#hello {
+  margin: $margin;
+  text-align: left;
+}
+
+img {
+  float: left;
+}
+.cover {
+  border: $border;
+  margin: 1em;
+  margin-left: 0;
+}
+.social {
+  height: 4em;
+  margin: 1em;
+}
+
+h1 { //header
+  margin-top: 3em;
+  margin-left: 1em;
+  float: left;
+  font-size: 2em;
+}
+
+h2 { //header2
+  font-size: 1.5em;
+}
+
+h3 { //subheader
+  font-size: .9em;
+}
+
+#navig {
+  border-top: $border;
+  border-bottom: $border;
+  margin: $margin;
+  clear: both;
+  height: 3em;
+}
+
+#one {
+  border-top: $border;
+    margin: $margin;
+  clear: both;
+  float: left;
+    display: inline-block;
+    width: 70%;
+  }
+
+#rightem {
+  margin: $margin;
+  border-left: $border;
+  display: inline-block;
+  width: 25%;
+  }
+
+li {
+  	display: inline;
+  	padding: 0px 25px 0px 25px;
+  }
+
+footer {
+  clear: both;
+  width: 100%;
+  border-top: $border;
+  font-size: .8em;
+}
+
+#firstinner {
+  width: 30%;
+  margin: $margin;
+  clear: both;
+  float: left;
+}
+
+#inner {
+  width: 30%;
+  margin: $margin;
+  margin-top: 45px;
+  float: left;
+}
